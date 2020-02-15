@@ -1,0 +1,77 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mon premier formulaire</title>
+	<link rel="stylesheet" type="text/css" href="formulaire1.css">
+	<img src="/home/safa/Desktop/haya.jpg" alt="image-droit" title="club"/>
+</head>
+<body>
+	<center>
+	<div class="form">
+		<h1>Bienvenue</h1>
+	<h2>Formulaire</h2>
+	<p>
+	<strong>civilité</strong>
+	<input type="radio" name="civilité" value="Mademoiselle" id="Mademoiselle"/>
+	<label for="Mademoiselle">Mademoiselle</label>
+	<input type="radio" name="civilité" value="Madame" id="Madame"/>
+	<label for="Madame">Madame</label>
+	<input type="radio" name="civilité" value="Monsieur" id="Monsieur"/>
+	<label for="Monsieur">Monsieur</label>
+	</p>
+	<p>
+		<label for="nom"><strong>Nom/Prénom</strong></label>
+		<input  type="text" name="pseudo" id="pseudo" required />
+	</p>
+		<strong>Adresse</strong>
+		<select name="Rue No Boite postale" id="Rue No Boite postale">
+			<option value="Rue No Boite postale">Rue No Boite postale</option>
+			
+		<option value="rue jamel">Rue jamel abd el naceur 7070</option>
+		<option value="rue abou">Rue abou loubaba 7090</option>
+		<option value="rue afrique">Rue de l'afrique 7060</option>
+	</select>
+	<p>
+		<strong>No postal/Localité</strong>
+		<input type="postal" name="postal"  id="postal"/>
+		<input type="Localité" name="Localité"  id="localité" value="Jendouba" />
+
+	</p>
+	<strong>Pays</strong>
+	<select name="pays" id="pays" value="pays" >
+		<option value="tunisia">Tunisia</option>
+		<option value="France">France</option>
+		<option value="Suisse">Suisse</option>
+		<option value="America">America</option>
+		<option value="Espagne">Espagne</option>
+	</select>
+	<p>
+		<strong>Plateform</strong>
+		<input type="checkbox" name="plateform" id="plateform"/>
+		<label for="windows">windows</label>
+		<input type="checkbox" name="plateform" id="plateform"/>
+		<label for="macintosh">Macintosh</label>
+		<input type="checkbox" name="plateform" id="plateform"/>
+		<label for="unix">Unix</label>
+	</p>
+	<strong>Application(s)</strong>
+<select name="Application" id="application">
+	<option value="bureautique">bureautique</option>
+	<option value="DAO">DAO</option>
+	<option value="Statistiques">statistiques</option>
+	<option value="SGBD">SGBD</option>
+	<option value="internet">internet</option>
+</select>
+</br>
+</br>
+</br>
+</br>
+
+<input type="submit" name="submit"  value="Soumettre formulaire" style="color: red" />
+<input type="reset" value="Effacer" style="color: red" />
+
+</div>
+</center>
+</body>
+</html>
