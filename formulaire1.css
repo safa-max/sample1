@@ -1,0 +1,27 @@
+.form{
+	width: 780px;
+	margin:auto;
+	font-family:'source sans pro',calibri,tahamo,sans-serif;
+	font-size: 16px;
+	border:2px solid;
+	padding: 20px;
+	border-color: blue;
+	padding-bottom: 70px;
+
+}
+
+
+h2{
+	color: blue;
+}
+h1{
+	font-size: 40px;
+	font-family: italic;
+	text-decoration: underline;
+}
+img{
+	width:auto;
+	height: 500px;
+	display: block;
+	border-image: 2px solid black;
+}
